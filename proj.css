@@ -1,0 +1,851 @@
+header{
+    color:white;
+    background-color:green;
+    padding: 10px;
+    width: 100%;
+}
+i{
+    padding-left:20px;
+    text-indent: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-variant: normal;
+    float: right;
+    font-weight: 100;
+}
+.freedemo{
+    background-color: blue;
+    padding: 10px;
+    margin-right: 100px;
+    
+}
+.jobcourse{
+    background-color: orange;
+    padding: 10px;
+
+}
+.logo{
+  width: 200px;
+  height: 45px;
+  float: left;
+  position: relative;
+  bottom: 15px;
+  margin-right: 100px;
+}
+li{
+    list-style-type:none;     
+    display:inline-block;                   
+    padding:10px;            
+   }
+  
+ 
+ li>a{
+      color:rgb(54, 52, 52);
+       text-decoration:none;	
+       padding:5px;
+
+      }
+ 
+ li>a:hover{
+ color: black;
+ text-decoration:none;
+ 
+ }
+ .dropdown-content>a{
+ display:block;
+ text-decoration:none;
+ color:blue;
+ padding:10px;  /*space between the branch names*/
+ }
+ 
+ .dropdown-content{
+ position:absolute;
+ margin-top:10px;
+ background-color:white;
+ display:none;
+ border:1px solid grey;
+ }
+ 
+ .dropdown-button:hover .dropdown-content{
+  display:block;
+ 
+ }
+ .sticky{
+     position: sticky;
+     top: 0px;
+    
+ }
+ .white {
+     background-color: white;
+     
+ }
+ .white:hover{
+     background-color: green;
+     color:white;
+ }
+ .grey {
+    background-color: grey;
+    
+}
+.grey:hover{
+    background-color:blue;
+    color:white;
+}
+ [class*="col-"]{
+     float: left;
+     
+ }
+
+ .col-1{width:8.33%;}
+ .col-2{width:16.66%;}
+ .col-3{width:24.99%;}
+ .col-4{width:33.32%;}
+ .col-5{width:41.65%;}
+ .col-6{width:49.98%;}
+ .col-7{ width:53.3%;}
+ .col-8{width:66.4%;}
+ .col-9{width:74.97%;}
+ .col-10{width:83.3%;}
+ .col-11{width:91.63%;}
+ .col-12{width:99.96%;}
+
+ .row{
+   width:100%;
+   float:left;
+   
+ }
+ .img{
+     border:1px solid grey;
+     margin-left:100px;
+ }
+
+
+ 
+ .h3{
+     text-align: center;
+     
+ }
+
+ .h3 a{
+
+    text-decoration: none;
+ }
+ .p{
+     margin:20px;
+
+ }
+ .read {
+     text-decoration:none ;
+     position: relative;
+     left: 175px;
+    
+ }
+ .read:hover{
+     color:orange;
+ }
+ .w{
+  color:orange;
+ }
+ .t{
+     color:blue;
+ }
+ .head{
+     font-size: 50px;
+ }
+     
+ .welparast {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+.welpara{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+ .b{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 20px 40px;
+    border: 1px solid blue;
+    border-radius: 6px;
+ }
+
+ .b:hover{
+    background-color:white;
+    color: green;
+    padding: 20px 70px;
+    border: 2px solid green;
+}
+ .img1{
+   padding:50px;   
+   margin: 20px;
+   height:500px;
+   margin-left: 80px;
+
+ }
+
+ /*what we offer section*/
+ .offer{
+     color: black;
+     padding: 20px;
+     text-align: center;
+     line-height: 0.8px;
+     font-size: 30px;
+     text-align: center;
+ }
+ 
+ .head3{
+     text-align: center;
+     border:1px solid gray;
+ }
+ 
+ .img2{
+     height: 211px;
+     width: 354px;
+     margin-left: 50px;
+ }
+  
+   
+  figcaption{
+
+    font-size: 20px;
+    color: white;
+    background-color:rgb(255, 145, 0);
+      display:block;
+      margin-right: 40px;
+      margin-left: 50px;
+      padding: 15px;
+  }
+ .training{
+     text-decoration: none;
+ }
+
+ #bg{
+     height: 720px;
+     background-image: linear-gradient(to right,rgba(22, 5, 43, 0.692),rgba(54, 52, 56, 0.904)),
+      url("images/analyzing-people-3441040_1920.jpg");
+     margin-top:30px;
+       
+ }
+ .sreview{
+     margin-left: 160px;
+     color: white;
+     font-size: 20px;
+ }
+
+ .rating{
+     font-size: 30px;
+     color:white;
+     margin-top: 250px;
+     margin-left: 150px;
+
+ }
+
+.fb{
+    margin-left:80px;
+}
+.jd{
+    margin-left: 40px;
+}
+.google{
+    margin-left: 20px;
+}
+
+
+ #fm1{
+     width: 350px;
+     background-color: white;
+     position: relative;
+     bottom: 300px;
+     border-radius: 5px;
+     height: 600px;
+     
+}
+
+ #fm1>h1{
+     padding: 20px;
+     font-size: 30px;
+     margin-bottom: 5px;
+ }
+
+ .fname,.fmail,.fnum,.fcourse,.fbranch{
+     width: 295px;
+     color: grey;
+     border-radius: 4px;
+     padding: 10px;
+     margin: 7px;
+     border:1px solid gray;
+     margin-left:15px;
+ }
+
+ .msg{
+     width:250px;
+     color: grey;
+     border-radius: 4px;
+     padding: 30px;
+     margin: 4px;
+     border:1px solid gray;
+     margin-left: 15px;
+     margin-bottom: 10px;
+ }
+
+ .classroom,.online{
+     
+     margin:5px;
+     margin-left: 25px;
+     margin-bottom: 15px;
+ }
+
+ .send{
+     width:300px;
+     border-radius: 4px;
+     padding: 10px;
+     margin:5px;
+     border:1px solid rgb(0, 68, 255);
+     margin-left: 25px;
+     background-color: blue;
+     color: white;
+     font-size: 20px;
+     font-style: bold;
+     bottom: 30px;
+ }
+
+ .clss,.onl{
+     color:grey;
+     font-size:20px;
+
+ }
+
+ .hrblack{
+    position:relative;
+    bottom: 5px;
+    border:3px solid black;
+    width: 30px;
+ } 
+
+ .rw3,.rw4{
+    margin-left: 50px;
+}
+.choosehead{
+    font-size: 30px;
+}
+
+.chooseimg{
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+
+
+ .c1{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(19, 16, 16);
+}
+
+.cpara{
+    margin-left: 20px;
+    word-spacing: 1.8px;
+    color: #8c8b8b;
+}
+ #choose1,#choose2,#choose3,#choose4,#choose5,#choose6,#choose7,#choose8{
+    border:1px solid rgb(223, 219, 219); 
+    height: 250px; 
+    width: 250px; 
+    margin-left: 30px;
+    margin-bottom: 30px;
+ }
+ 
+ #trainer{
+     background-image: url("images/background.jpg");
+     height: 520px;
+ }
+
+ .trainerh3{
+     text-align: center;
+     font-size: 30px;
+ }
+ .trainerp{
+     text-align: center;
+     font-size: 20px;
+     margin-bottom: 50px;
+ }
+ .trainerdiv1, .trainerdiv2,.trainerdiv3,.trainerdiv4{
+    width: 250px;
+    height: 230px;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.trainerdiv1{
+    position: relative;
+    left: 110px;
+}
+.trainerdiv2{
+    position: relative;
+    left: 60px;
+}
+.trainerdiv3{
+    position: relative;
+    left: 10px;
+}
+.trainerdiv4{
+    position: relative;
+    right: 40px;
+}
+.trainerimg{
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+.trainerh2{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    font-size: 18px;
+    padding: 10px;
+}
+.trainerh4{
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(21, 112, 248, 0.945); 
+}
+#g1{
+    height:100px;
+    
+}
+.trainerinfo{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: #8c8b8b;
+}
+.view{
+    padding: 12px 100px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 25px;
+    position: relative;
+    top: 30px;
+    left: 500px;
+    font-size: 20px;
+    color: white;
+}
+.srview{
+   margin-left:100px;
+   font-size: 35px;
+}
+
+.reviewh2{
+    color: rgb(31, 30, 30);
+    margin-left: 120px;
+    font-size: 20px;
+}
+.reviewh4{
+    margin-left: 110px;
+    position: relative;
+    bottom: 5px;
+}
+.reviewh4>i{
+    color: orange;
+    margin: -10px;
+}
+.reviewp{
+    color:rgb(31, 30, 30);
+    margin-left: 120px;
+}
+.reviewh5{
+    color: orange;
+    margin-left: 150px;
+    position: relative;
+    bottom: 10px;
+}
+.sviewbtn{
+    padding: 12px 80px;
+    background-color: rgb(18, 45, 119);
+    border-radius: 25px;
+    border:1px solid rgb(18, 45, 119);
+    margin-left: 180px;
+}
+.sviewbtn>a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+#opartner{
+    background-color: rgba(22, 177, 22, 0.808);
+    height: 720px;
+}
+.parthead{
+   margin-left: 80px;
+   font-size: 35px;
+   color: white;
+}
+.partp{
+    text-align: center;
+    color:white;
+    font-size: 19px;
+}
+.partimg{
+    margin: 10px;
+    margin-left: 200px;
+}
+
+/* placement section*/
+#placement{
+    background-color: orange;
+    height: 400px;
+    
+}
+.placeh1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.placed1,.placed2,.placed3{
+    width: 350px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: white;
+}
+.placed1{
+    position: relative;
+    left: 100px;
+}
+.placed2{
+    position: relative;
+    left: 40px;
+}
+.placed3{
+    position: relative;
+    right: 20px;
+}
+.placeimg{
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.placeimg3{
+    border-radius: 50%;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+.placeh2{
+    color: orange;
+    position: relative;
+    bottom: 70px;
+    left: 120px;
+}
+.placeh4{
+    color: #8c8b8b;
+    position: relative;
+    bottom: 90px;
+    left: 120px;
+}
+.placeh5{
+    color: #8c8b8b;
+    position: relative;
+    bottom: 110px;
+    left: 120px;
+}
+.placeh23{
+    color: orange;
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+}
+.placeh43{
+    color: #8c8b8b;
+    position: relative;
+    bottom: 120px;
+    left: 130px;
+}
+.placeh53{
+    color: #8c8b8b;
+    position: relative;
+    bottom: 140px;
+    left: 130px;
+}
+.placebtn{
+    padding: 12px 60px;
+    background-color: rgb(2, 2, 82);
+    border: 1px solid rgb(2, 2, 82);
+    border-radius: 25px;
+    position: relative;
+    top: 40px;
+    left: 520px;
+}
+.placebtn>a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/*students working in*/
+#working{
+    height: 250px;
+}
+.studwrkh{
+    text-align: center;
+    font-size: 30px;
+}
+.studwrkimg{
+    margin-left: 40px;
+}
+
+/*footer*/
+#footdetail{
+    background-image:linear-gradient(to bottom,rgb(8, 78, 206),rgb(9, 9, 179));
+    height: 800px;
+}
+.linkh3{
+    color: white;
+    position: relative;
+    left: 150px;
+}
+.fthr{
+    position:relative;
+    bottom: 5px;
+    left: 6px;
+    border:1px solid orange;
+    width: 40px;
+}
+.quick1>a{
+    text-decoration: none;
+    color: #85c0f8;
+    position: relative;
+    left: 140px;
+    bottom: 20px;
+}
+.quick1>a:hover{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 140px;
+    bottom: 20px;  
+}
+.fthead{
+    color: white;
+    position: relative;
+    left: 15px;
+}
+.fthr2{
+    border:1px solid orange;
+    width: 40px;
+    position: relative;
+    bottom: 5px;
+    right: 130px;
+}
+.ftbrn{
+    color: white;
+    position: relative;
+    bottom: 5px;
+    left: 13px;
+}
+.ftadd{
+    color: #85c0f8;
+    position: relative;
+    left: 13px;
+    bottom: 15px;
+}
+.ftphn{
+    color: #85c0f8;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+}
+.ftphn>a{
+    color: #85c0f8;
+    position: relative;
+    left: 10px;
+    text-decoration: none;
+}
+.ftmail>a{
+    color: #85c0f8;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+    text-decoration: none;
+}
+.ftlast{
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 13px;
+}
+
+.ftadd2{
+    color: #85c0f8;
+    position: relative;
+    left: 13px;
+    top: 60px;
+}
+.ftphn2{
+    color: #85c0f8;
+    position: relative;
+    left: 10px;
+    top: 60px;
+}
+.ftphn2>a{
+    color: #85c0f8;
+    position: relative;
+    left: 10px;
+    text-decoration: none;
+}
+.ftmail2>a{
+    color: #85c0f8;
+    position: relative;
+    left: 10px;
+    top: 60px;
+    text-decoration: none;
+}
+.ftlasthr{
+    width: 800px;
+    border: 0.1px solid grey;
+    position: relative;
+    top: 40px;
+    left: 180px;
+}
+.ftlasth4{
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 100px;
+    font-size: 20px;
+}
+.ftlastp{
+    color: #85c0f8;
+    position: relative;
+    top: 60px;
+    left: 100px;
+    font-size:18px;
+}
+.parthr{
+    width: 500px;
+    border: 1px solid rgb(238, 41, 41);
+}
+.ftpartner{
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+.fthr4{
+    position:relative;
+    top: 60px;
+    right: 100px;
+    border:1px solid orange;
+    width: 40px; 
+}
+.ftpartimg1{
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+.ftpartimg2{
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+.social{
+    position: relative;
+    top: 110px;
+}
+.icon1>a{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+}
+.icon2>a{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 15px;
+}
+.icon3>a{
+    color: white;
+    font-size: 25px;
+}
+.icon4>a{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 15px;
+}
+.icon5>a{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 30px;
+}
+.icon1>a:hover{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 15px;
+    border-radius: 100%;
+    border: 5px solid green;
+}
+.icon2>a:hover{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+.icon3>a:hover{
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+.icon4>a:hover{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 30px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+.icon5>a:hover{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 15px;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+
+footer{
+    background-color: rgb(4, 4, 153);
+    
+}
+.footp{
+    color: white;
+    margin-left: 30px;
+    
+}
+.foottxt{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    left: 45px;
+    margin: 20px;
+    
+}
